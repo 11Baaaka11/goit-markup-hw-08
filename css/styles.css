@@ -1,0 +1,300 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header */
+.header {
+  width: 1600px;
+  height: 80px;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 80px;
+}
+/* logo */
+.logo-header {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  padding: 24px 1240px 25px 215px;
+}
+
+.logo-studio {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer .web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+/* footer */
+
+.footer .studio {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  flex-shrink: 0;
+  background: #2f303a;
+}
+
+.footer .address {
+  width: 231px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.footer .mail {
+  width: 136px;
+  height: 21px;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.footer .tel {
+  width: 231px;
+  height: 21px;
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+/* link */
+.site-nav .link:hover,
+.site-nav .link:focus,
+.mail-item:hover,
+.mail-item:focus,
+.telephone-number:hover,
+.telephone-number:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+.link {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+/* contacts */
+.mail-item {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.telephone-number {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+/* Text */
+
+.section-item {
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+  background: #2f303a;
+}
+
+.section-item .text {
+  width: 696px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+/* button */
+.button {
+  color: #fff;
+  background-color: #2196f3;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  width: 216px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+/* feature1 */
+
+.feature .text {
+  width: 270px;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.feature .text-item {
+  width: 270px;
+  height: 72px;
+  flex-shrink: 0;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+/*  */
+
+.section .text .commands {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.section .img {
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+}
+
+.img-photo {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img-item {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img-photo-item {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* Commands */
+
+.commands-item .img {
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+}
+
+.commands-item .name {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.commands-item .profession {
+  color: #757575;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.img-Igor {
+  background: url(<path-to-image>),
+    lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
+}
+
+.img-Olga {
+  background: url(<path-to-image>),
+    lightgray -40.687px -0.224px / 175.271% 121.356% no-repeat;
+}
+
+.img-Mykola {
+  background: url(<path-to-image>),
+    lightgray -227.68px -8.844px / 193.508% 134.131% no-repeat;
+}
+
+.img-Myhaylo {
+  background: url(<path-to-image>),
+    lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
+}
