@@ -13,6 +13,7 @@ a {
   background: #fff;
   padding: 80px;
 }
+
 /* logo */
 .logo-header {
   color: #2196f3;
@@ -297,4 +298,40 @@ a {
 .img-Myhaylo {
   background: url(<path-to-image>),
     lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
+}
+
+/* Portfolio */
+
+.filter .button {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  width: 73px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.porfolio .title {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
+}
+
+.porfolio .text {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
 }
