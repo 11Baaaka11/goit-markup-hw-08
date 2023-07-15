@@ -1,3 +1,17 @@
+:root {
+  --color-blue: #2196f3;
+  --color-dark: #000;
+  --coor-white: #fff;
+  --color-gray: rgba(255, 255, 255, 0.6);
+  --color-white-dark: #212121;
+  --color-gray-dark: #757575;
+  --color-dark-blue: #2f303a;
+  --bagroung-color-white: #f5f4fa;
+}
+section body {
+  font-family: Roboto;
+}
+
 ul {
   list-style: none;
 }
@@ -10,13 +24,13 @@ a {
   width: 1600px;
   height: 80px;
   flex-shrink: 0;
-  background: #fff;
+  background: var(--coor-white);
   padding: 80px;
 }
 
 /* logo */
 .logo-header {
-  color: #2196f3;
+  color: var(--color-blue);
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -27,7 +41,7 @@ a {
 }
 
 .logo-studio {
-  color: #000;
+  color: var(--color-dark);
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -37,7 +51,7 @@ a {
 }
 
 .footer .web {
-  color: #2196f3;
+  color: var(--color-blue);
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -49,7 +63,7 @@ a {
 /* footer */
 
 .footer .studio {
-  color: #fff;
+  color: var(--coor-white);
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -62,14 +76,14 @@ a {
   width: 1600px;
   height: 252px;
   flex-shrink: 0;
-  background: #2f303a;
+  background: var(--color-dark-blue);
 }
 
 .footer .address {
   width: 231px;
   height: 21px;
   flex-shrink: 0;
-  color: #fff;
+  color: var(--coor-white);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -82,7 +96,7 @@ a {
   width: 136px;
   height: 21px;
   flex-shrink: 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-gray);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -95,7 +109,7 @@ a {
   width: 231px;
   height: 21px;
   flex-shrink: 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-gray);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -111,15 +125,15 @@ a {
 .mail-item:focus,
 .telephone-number:hover,
 .telephone-number:focus {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .link {
-  color: #212121;
+  color: var(--color-white-dark);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -129,7 +143,7 @@ a {
 }
 /* contacts */
 .mail-item {
-  color: #212121;
+  color: var(--color-gray-dark);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -140,7 +154,7 @@ a {
 }
 
 .telephone-number {
-  color: #757575;
+  color: var(--color-gray-dark);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -155,12 +169,12 @@ a {
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
-  background: #2f303a;
+  background: var(--color-dark-blue);
 }
 
 .section-item .text {
   width: 696px;
-  color: #fff;
+  color: var(--coor-white);
   text-align: center;
   font-family: Roboto;
   font-size: 44px;
@@ -173,9 +187,9 @@ a {
 
 /* button */
 .button {
-  color: #fff;
-  background-color: #2196f3;
-  color: #fff;
+  color: var(--coor-white);
+  background-color: var(--color-blue);
+  color: var(--coor-white);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -187,7 +201,7 @@ a {
   height: 50px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: #2196f3;
+  background: var(color-blue);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
 }
@@ -196,7 +210,7 @@ a {
 
 .feature .text {
   width: 270px;
-  color: #212121;
+  color: var(--color-white-dark);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -210,7 +224,7 @@ a {
   width: 270px;
   height: 72px;
   flex-shrink: 0;
-  color: #757575;
+  color: color-gray-dark;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -221,8 +235,12 @@ a {
 
 /*  */
 
+.section {
+  background: var(--coor-white);
+}
+
 .section .text .commands {
-  color: #212121;
+  color: var(--color-white-dark);
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -252,6 +270,10 @@ a {
 
 /* Commands */
 
+.commads {
+  background: var(--bagroung-color-white);
+}
+
 .commands-item .img {
   width: 270px;
   height: 260px;
@@ -259,7 +281,7 @@ a {
 }
 
 .commands-item .name {
-  color: #212121;
+  color: var(--color-white-dark);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -270,7 +292,7 @@ a {
 }
 
 .commands-item .profession {
-  color: #757575;
+  color: color-gray-dark;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -303,7 +325,8 @@ a {
 /* Portfolio */
 
 .filter .button {
-  color: #fff;
+  color: var(--color-dark);
+  background: var(--coor-white);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -313,8 +336,13 @@ a {
   letter-spacing: 0.48px;
 }
 
+.filter .button:hover,
+.filter .button:focus {
+  background: var(--color-blue);
+}
+
 .porfolio .title {
-  color: #212121;
+  color: var(--color-white-dark);
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -322,13 +350,20 @@ a {
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
 }
-
 .porfolio .text {
-  color: #757575;
+  color: color-gray-dark;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
+}
+
+.img-item-portfolio .title {
+  color: var(--color-white-dark);
+}
+
+.img-item-portfolio .text {
+  color: var(--color-gray-dark);
 }
