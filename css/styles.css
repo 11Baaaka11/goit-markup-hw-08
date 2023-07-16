@@ -239,7 +239,18 @@ a {
   background: var(--coor-white);
 }
 
-.section .text .commands {
+.section .text {
+  color: var(--color-white-dark);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.section-comands .commads {
   color: var(--color-white-dark);
   text-align: center;
   font-family: Roboto;
@@ -345,7 +356,7 @@ a {
   background: var(--color-blue);
 }
 
-.porfolio .title {
+.img-item-portfolio .title {
   color: var(--color-white-dark);
   font-family: Roboto;
   font-size: 18px;
@@ -354,20 +365,13 @@ a {
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
 }
-.porfolio .text {
-  color: color-gray-dark;
+
+.img-item-portfolio .text {
+  color: var(--color-gray-dark);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
-}
-
-.img-item-portfolio .title {
-  color: var(--color-white-dark);
-}
-
-.img-item-portfolio .text {
-  color: var(--color-gray-dark);
 }
