@@ -8,8 +8,8 @@
   --color-dark-blue: #2f303a;
   --bagroung-color-white: #f5f4fa;
 }
-section body {
-  font-family: Roboto;
+body {
+  font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -37,7 +37,6 @@ a {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  padding: 24px 1240px 25px 215px;
 }
 
 .logo-studio {
@@ -84,11 +83,11 @@ a {
   height: 21px;
   flex-shrink: 0;
   color: var(--coor-white);
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 171%; /* 171.429% */
   letter-spacing: 0.42px;
 }
 
@@ -97,12 +96,16 @@ a {
   height: 21px;
   flex-shrink: 0;
   color: var(--color-gray);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 171%; /* 171.429% */
   letter-spacing: 0.42px;
+}
+
+.footer .mail:hover,
+.footer .mail:focus {
+  color: var(--coor-white);
 }
 
 .footer .tel {
@@ -110,12 +113,17 @@ a {
   height: 21px;
   flex-shrink: 0;
   color: var(--color-gray);
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 171%; /* 171.429% */
   letter-spacing: 0.42px;
+}
+
+.footer .tel:hover,
+.footer .tel:focus {
+  color: var(--coor-white);
 }
 
 /* link */
@@ -134,7 +142,7 @@ a {
 
 .link {
   color: var(--color-white-dark);
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +152,7 @@ a {
 /* contacts */
 .mail-item {
   color: var(--color-gray-dark);
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -155,7 +163,7 @@ a {
 
 .telephone-number {
   color: var(--color-gray-dark);
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -176,11 +184,11 @@ a {
   width: 696px;
   color: var(--coor-white);
   text-align: center;
-  font-family: Roboto;
+
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
-  line-height: 60px; /* 136.364% */
+  line-height: 136%; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
@@ -191,11 +199,10 @@ a {
   background-color: var(--color-blue);
   color: var(--coor-white);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: 187%; /* 187.5% */
   letter-spacing: 0.96px;
   width: 216px;
   height: 50px;
@@ -211,7 +218,7 @@ a {
 .feature .text {
   width: 270px;
   color: var(--color-white-dark);
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -224,25 +231,25 @@ a {
   width: 270px;
   height: 72px;
   flex-shrink: 0;
-  color: color-gray-dark;
-  font-family: Roboto;
+  color: var(--color-gray-dark);
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 171%; /* 171.429% */
   letter-spacing: 0.42px;
 }
 
 /*  */
 
 .section {
-  background: var(--coor-white);
+  background: var(--bagroung-color-white);
 }
 
 .section .text {
   color: var(--color-white-dark);
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -252,8 +259,8 @@ a {
 
 .section-comands .commads {
   color: var(--color-white-dark);
+  background: var(--bagroung-color-white);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -281,10 +288,6 @@ a {
 
 /* Commands */
 
-.commads {
-  background: var(--bagroung-color-white);
-}
-
 .commands-item .img {
   width: 270px;
   height: 260px;
@@ -294,7 +297,7 @@ a {
 .commands-item .name {
   color: var(--color-white-dark);
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -303,9 +306,8 @@ a {
 }
 
 .commands-item .profession {
-  color: color-gray-dark;
+  color: var(--color-gray-dark);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -339,39 +341,44 @@ a {
   background: var(--coor-white);
 }
 
-.filter .button {
+.filter .button-item {
   color: var(--color-dark);
-  background: var(--coor-white);
+  background: var(--bagroung-color-white);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 163%; /* 162.5% */
   letter-spacing: 0.48px;
+  border: none;
 }
 
-.filter .button:hover,
-.filter .button:focus {
+.filter .button-item:hover,
+.filter .button-item:focus {
   background: var(--color-blue);
+}
+
+.filter .text:hover,
+.filter .text:focus {
+  color: #fff;
 }
 
 .img-item-portfolio .title {
   color: var(--color-white-dark);
-  font-family: Roboto;
+
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 200% */
+  line-height: 200%; /* 200% */
   letter-spacing: 1.08px;
 }
 
 .img-item-portfolio .text {
   color: var(--color-gray-dark);
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: 188%; /* 187.5% */
   letter-spacing: 0.48px;
 }
