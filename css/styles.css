@@ -242,10 +242,6 @@ a {
 
 /*  */
 
-.section {
-  background: var(--bagroung-color-white);
-}
-
 .section .text {
   color: var(--color-white-dark);
   text-align: center;
@@ -255,6 +251,10 @@ a {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+}
+
+.section-comands {
+  background: var(--bagroung-color-white);
 }
 
 .section-comands .commads {
