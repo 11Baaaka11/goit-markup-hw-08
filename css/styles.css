@@ -368,6 +368,7 @@ a {
   height: 252px;
   flex-shrink: 0;
   background: var(--color-dark-blue);
+  margin: 0 auto;
 }
 
 .footer .address {
@@ -375,7 +376,6 @@ a {
   height: 21px;
   flex-shrink: 0;
   color: var(--coor-white);
-
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
