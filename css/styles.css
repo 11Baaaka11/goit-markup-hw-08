@@ -121,7 +121,9 @@ a {
 }
 
 .contacts {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 344px;
   padding: 0;
   display: flex;
 }
