@@ -396,6 +396,11 @@ a {
 
 /* footer */
 
+.logo-header-index {
+  margin-top: 60px;
+  display: inline-block;
+}
+
 .footer .web {
   color: var(--color-blue);
   font-family: Raleway;
