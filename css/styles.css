@@ -210,6 +210,11 @@ a {
 
 /* feature */
 
+.section-feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .feature {
   margin: 0;
   padding: 0;
@@ -217,8 +222,6 @@ a {
 }
 
 .li-feature {
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-right: 30px;
   width: 270px;
 }
@@ -236,8 +239,6 @@ a {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
-  display: inline-block;
 }
 
 .feature .text-item {
@@ -266,8 +267,12 @@ a {
 .photo .img {
   width: 370px;
   height: 294px;
-  flex-shrink: 0;
   display: block;
+}
+
+.photo {
+  margin: 0;
+  padding: 0;
 }
 
 .li-item {
@@ -313,19 +318,9 @@ a {
 }
 
 .commands-item {
+  margin: 0;
+  padding: 0;
   display: flex;
-}
-
-.img-photo {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.img-item {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.img-photo-item {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 /* Commands */
@@ -372,6 +367,7 @@ a {
 
 .name-profession {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .img-Igor {
@@ -422,17 +418,15 @@ a {
 }
 
 .footer {
-  height: 252px;
-  flex-shrink: 0;
   background: var(--color-dark-blue);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .address {
   width: 231px;
-  height: 21px;
   flex-shrink: 0;
   color: var(--coor-white);
   font-size: 14px;
@@ -440,10 +434,12 @@ a {
   font-weight: 400;
   line-height: 1.7; /* 171.429% */
   letter-spacing: 0.42px;
+  margin: 0;
+  margin-top: 20px;
 }
 .footer .mail {
+  display: inline-block;
   width: 136px;
-  height: 21px;
   flex-shrink: 0;
   color: var(--color-gray);
   font-size: 14px;
@@ -451,6 +447,9 @@ a {
   font-weight: 400;
   line-height: 1.7; /* 171.429% */
   letter-spacing: 0.42px;
+  margin: 0;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .footer .mail:hover,
@@ -460,7 +459,6 @@ a {
 
 .footer .tel {
   width: 231px;
-  height: 21px;
   flex-shrink: 0;
   color: var(--color-gray);
   font-size: 14px;
@@ -468,6 +466,7 @@ a {
   font-weight: 400;
   line-height: 1.7; /* 171.429% */
   letter-spacing: 0.42px;
+  margin: 0;
 }
 
 .footer .tel:hover,
