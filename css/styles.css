@@ -516,6 +516,10 @@ a {
 
 /* footer */
 
+.foter-container {
+  display: flex;
+}
+
 .logo-header-index {
   display: inline-block;
 }
@@ -598,6 +602,10 @@ a {
   color: var(--coor-white);
 }
 
+.div-social-networks {
+  margin-left: 156px;
+}
+
 .social-networks {
   display: flex;
   color: var(--coor-white);
@@ -630,6 +638,7 @@ a {
   width: 44px;
   height: 44px;
   border-color: var(--coor-white);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
