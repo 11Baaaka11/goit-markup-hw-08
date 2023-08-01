@@ -518,6 +518,7 @@ a {
 
 .foter-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-header-index {
