@@ -9,6 +9,7 @@
   --color-dark-blue: #2f303a;
   --bagroung-color-white: #f5f4fa;
   --border-bottom-color: #ececec;
+  --color-svg-gray: #afb1b8;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -132,6 +133,26 @@ a {
   margin-right: 0;
 }
 
+.icon-envelope {
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.mail-item:hover .icon-envelope {
+  fill: var(--color-blue);
+}
+
+.icon-smartphone {
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.telephone-number:hover .icon-smartphone {
+  fill: var(--color-blue);
+}
+
 .mail-item {
   color: var(--color-gray-dark);
   font-size: 14px;
@@ -237,6 +258,17 @@ a {
   margin-right: 0;
 }
 
+.div-svg {
+  margin-bottom: 30px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background: var(--bagroung-color-white);
+  border-radius: 4px;
+}
+
 .feature .text {
   color: var(--color-white-dark);
   font-size: 14px;
@@ -324,6 +356,46 @@ a {
   margin-bottom: 50px;
 }
 
+.sociale-list {
+  display: flex;
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+  justify-content: center;
+}
+
+.social-list-item {
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.social-list-item:last-child {
+  margin-right: 0;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-color: var(--coor-white);
+  border-radius: 50%;
+}
+
+.svg {
+  fill: var(--color-svg-gray);
+}
+
+.social-list-link:hover {
+  background-color: var(--color-blue);
+}
+
+.social-list-link:hover .svg {
+  fill: var(--coor-white);
+}
+
 .commands-item {
   margin: 0;
   padding: 0;
@@ -395,6 +467,51 @@ a {
 .img-Myhaylo {
   background: url(<path-to-image>),
     lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
+}
+
+/* section-clients */
+
+.section-clients {
+  background: var(--coor-white);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-clients .text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.clients-list {
+  display: flex;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  justify-content: center;
+  height: 92px;
+}
+
+.svg-item {
+  margin-top: 16px;
+  fill: var(--color-svg-gray);
+}
+
+.clients-list-li:hover .svg-item {
+  fill: var(--color-blue);
+}
+
+.clients-list-li {
+  margin-right: 30px;
+  border-radius: 4px;
+  border: 1px solid var(--color-svg-gray);
+}
+
+.clients-list-li:last-child {
+  margin-right: 0;
 }
 
 /* footer */
@@ -481,6 +598,53 @@ a {
   color: var(--coor-white);
 }
 
+.social-networks {
+  display: flex;
+  color: var(--coor-white);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.sociale-list-foter {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-list-item-foter {
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.social-list-item-foter:last-child {
+  margin-right: 0;
+}
+
+.social-list-link-foter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-color: var(--coor-white);
+  border-radius: 50%;
+}
+
+.social-list-link-foter:hover {
+  background-color: var(--color-blue);
+}
+
+.social-list-link-foter:hover .svg-foter {
+  fill: var(--coor-white);
+}
+
+.svg-foter {
+  fill: var(--color-svg-gray);
+}
+
 /* Portfolio */
 
 .main-section {
@@ -508,8 +672,8 @@ a {
   background: var(--color-blue);
 }
 
-.filter .text:hover,
-.filter .text:focus {
+.filter .button-item:hover .text,
+.filter .button-item:focus .text {
   color: #fff;
 }
 
