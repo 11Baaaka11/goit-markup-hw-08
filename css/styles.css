@@ -505,13 +505,12 @@ a {
 }
 
 .link-clients {
+  align-items: center;
+  justify-content: center;
   display: flex;
 }
 
 .svg-item {
-  justify-content: center;
-  align-items: center;
-  display: flex;
   /* margin: 16px 32px; */
   fill: var(--color-svg-gray);
 }
