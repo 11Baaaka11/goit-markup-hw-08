@@ -504,8 +504,15 @@ a {
   justify-content: center;
 }
 
+.link-clients {
+  display: flex;
+}
+
 .svg-item {
-  margin: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* margin: 16px 32px; */
   fill: var(--color-svg-gray);
 }
 
