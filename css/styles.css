@@ -505,6 +505,8 @@ a {
 }
 
 .link-clients {
+  width: 170px;
+  height: 92px;
   align-items: center;
   justify-content: center;
   display: flex;
