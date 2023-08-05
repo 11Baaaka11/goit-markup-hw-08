@@ -192,7 +192,7 @@ a {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  min-width: 1600px;
+  max-width: 1600px;
   background-color: var(--color-dark-blue);
   background-image: linear-gradient(
       to right,
@@ -416,6 +416,7 @@ a {
   margin: 0;
   padding: 0;
   margin-right: 30px;
+  background-color: var(--coor-white);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
@@ -513,12 +514,11 @@ a {
 }
 
 .svg-item {
-  /* margin: 16px 32px; */
   fill: var(--color-svg-gray);
 }
 
-.clients-list-li:hover .svg-item,
-.clients-list-li:focus .svg-item {
+.link-clients:hover .svg-item,
+.link-clients:focus .svg-item {
   fill: var(--color-blue);
 }
 
@@ -702,7 +702,8 @@ a {
   line-height: 1.6; /* 162.5% */
   letter-spacing: 0.48px;
   border-radius: 4px;
-  border-color: white;
+  border-color: transparent;
+
   padding: 6px 22px;
 }
 
@@ -711,8 +712,8 @@ a {
   background: var(--color-blue);
 }
 
-.filter .button-item:hover .text,
-.filter .button-item:focus .text {
+.filter .button-item:hover,
+.filter .button-item:focus {
   color: #fff;
 }
 
@@ -728,8 +729,8 @@ a {
   margin-right: 8px;
 }
 
-.filter .li-item:hover,
-.filter .li-item:focus {
+.filter .button-item:hover,
+.filter .button-item:focus {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -785,8 +786,8 @@ a {
   background: var(--coor-white);
 }
 
-.portfolio .li-portfolio:hover,
-.portfolio .li-portfolio:focus {
+.portfolio .img-item-portfolio:hover,
+.portfolio .img-item-portfolio:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
