@@ -511,6 +511,7 @@ a {
   align-items: center;
   justify-content: center;
   display: flex;
+  border: 1px solid var(--color-svg-gray);
 }
 
 .svg-item {
@@ -525,12 +526,12 @@ a {
 .clients-list-li {
   margin-right: 30px;
   border-radius: 4px;
-  border: 1px solid var(--color-svg-gray);
+
   height: 92px;
 }
 
-.clients-list-li:hover,
-.clients-list-li:focus {
+.link-clients:hover,
+.link-clients:focus {
   border-color: var(--color-blue);
 }
 
