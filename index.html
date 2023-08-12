@@ -28,6 +28,7 @@
             <li class="item">
               <a href="" class="link current link-studio">Студія</a>
             </li>
+
             <li class="item">
               <a href="./portfolio.html" class="link link-portfolio"
                 >Портфоліо</a
@@ -63,9 +64,27 @@
       <section class="section-item">
         <div class="container">
           <h1 class="text">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" name="button1" class="button">
+          <button type="button" name="button1" class="button" data-modal-open>
             Замовити послугу
           </button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-btn" data-modal-close>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M15 4.10786L13.8921 3L9.5 7.39214L5.10786 3L4 4.10786L8.39214 8.5L4 12.8921L5.10786 14L9.5 9.60786L13.8921 14L15 12.8921L10.6079 8.5L15 4.10786Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -457,5 +476,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
