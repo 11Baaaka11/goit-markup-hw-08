@@ -833,7 +833,7 @@ a {
 .portfolio .img-item-portfolio {
   display: block;
   background: var(--coor-white);
-  overflow: hidden;
+
   position: relative;
 }
 
@@ -962,4 +962,8 @@ a {
 .img-item-portfolio:hover .p-item {
   /* opacity: 1; */
   transform: translateY(0%);
+}
+
+.div-absolute {
+  overflow: hidden;
 }
