@@ -833,14 +833,8 @@ a {
 .portfolio .img-item-portfolio {
   display: block;
   background: var(--coor-white);
+  overflow: hidden;
 }
-
-/* .portfolio .img-item-portfolio::after {
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  background: rgba(33, 150, 243, 0.9);
-} */
 
 .img-item-portfolio .title {
   color: var(--color-white-dark);
@@ -920,10 +914,14 @@ a {
   height: 294px;
   background: rgba(33, 150, 243, 0.9);
   opacity: 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+  pointer-events: none;
 }
 
 .div-absolute:hover::before {
   opacity: 1;
+  transform: translateY(0%);
 }
 
 .p-item {
@@ -935,6 +933,8 @@ a {
   line-height: 1.7;
   letter-spacing: 0.54px;
   opacity: 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
 }
 
 .div-p {
@@ -945,4 +945,5 @@ a {
 
 .div-absolute:hover .p-item {
   opacity: 1;
+  transform: translateY(0%);
 }
