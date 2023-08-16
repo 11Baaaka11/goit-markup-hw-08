@@ -154,6 +154,7 @@ a {
   margin: 0;
   margin-right: 10px;
   padding: 0;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-item:hover .icon-envelope,
@@ -167,6 +168,7 @@ a {
   margin: 0;
   margin-right: 10px;
   padding: 0;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .telephone-number:hover .icon-smartphone,
