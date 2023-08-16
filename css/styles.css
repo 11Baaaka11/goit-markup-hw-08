@@ -77,6 +77,7 @@ a {
 
 .site-nav .link.current {
   color: var(--color-blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .current::after {
@@ -115,6 +116,7 @@ a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-nav {
@@ -183,6 +185,7 @@ a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .telephone-number {
@@ -195,6 +198,7 @@ a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Text */
@@ -262,12 +266,14 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -276,13 +282,25 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 528px;
   height: 581px;
   background: var(--coor-white);
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden .modal {
+  transform: translate(-50%, -50%), scale(0.4);
+  opacity: 0;
+}
+
+.modal {
+  transform: translate(-50%, -50%), scale(0.4);
+  opacity: 1;
 }
 
 .modal-btn {
@@ -471,10 +489,12 @@ a {
   height: 44px;
   border-color: var(--coor-white);
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg {
+.social-list-link .svg {
   fill: var(--color-svg-gray);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -595,10 +615,12 @@ a {
   justify-content: center;
   display: flex;
   border: 1px solid var(--color-svg-gray);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-item {
   fill: var(--color-svg-gray);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-clients:hover .svg-item,
@@ -687,6 +709,7 @@ a {
   margin: 0;
   margin-top: 9px;
   margin-bottom: 9px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .mail:hover,
@@ -704,6 +727,7 @@ a {
   line-height: 1.7; /* 171.429% */
   letter-spacing: 0.42px;
   margin: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .tel:hover,
@@ -752,6 +776,8 @@ a {
   border-color: var(--coor-white);
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link-foter:hover,
@@ -766,6 +792,7 @@ a {
 
 .svg-foter {
   fill: var(--coor-white);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Portfolio */
@@ -787,8 +814,10 @@ a {
   letter-spacing: 0.48px;
   border-radius: 4px;
   border-color: transparent;
-
   padding: 6px 22px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter .button-item:hover,
@@ -798,7 +827,7 @@ a {
 
 .filter .button-item:hover,
 .filter .button-item:focus {
-  color: #fff;
+  color: var(--coor-white);
 }
 
 .filter {
@@ -835,8 +864,8 @@ a {
 .portfolio .img-item-portfolio {
   display: block;
   background: var(--coor-white);
-
   position: relative;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .img-item-portfolio .title {
@@ -932,11 +961,13 @@ a {
   pointer-events: none;
 }
 
-.img-item-portfolio:hover .div-p {
+.img-item-portfolio:hover .div-p,
+.img-item-portfolio:focus .div-p {
   transform: translateY(-101%);
 }
 
-.img-item-portfolio:hover .p-item {
+.img-item-portfolio:hover .p-item,
+.img-item-portfolio:focus .p-item {
   transform: translateY(0%);
 }
 
