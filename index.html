@@ -84,6 +84,59 @@
                 />
               </svg>
             </button>
+            <div class="contacts-modal">
+              <form class="contacts-form" name="contacts-form">
+                <h2 class="text-contacts">
+                  Залиште свої дані, ми вам передзвонимо
+                </h2>
+                <div class="form-group">
+                  <label for="user-name" class="user-name-modal">Ім'я</label>
+                  <input type="text" id="user-name" name="user-name" />
+                </div>
+
+                <div class="form-group">
+                  <label for="telephone-number" class="telephone-number-modal"
+                    >Телефон</label
+                  >
+                  <input
+                    type="tel"
+                    id="telephone-number"
+                    name="telephone-number"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="email-modal">Пошта</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+
+                <div class="form-group">
+                  <label for="coments" class="coments-modal">Коментар</label>
+                  <textarea
+                    type="text"
+                    id="coments"
+                    name="coments"
+                    placeholder="Введіть текст"
+                    class="coments-modal-item"
+                  ></textarea>
+                </div>
+
+                <div class="form-group-bottom">
+                  <input
+                    type="checkbox"
+                    id="сonditions"
+                    name="сonditions"
+                    class="checkbox-modal"
+                  />
+                  <label for="сonditions" class="сonditions">
+                    Погоджуюся з розсилкою та приймаю
+                    <a href="" class="сonditions-link">Умови договору</a>
+                  </label>
+                </div>
+
+                <button type="submit" class="btn-form">Відправити</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
