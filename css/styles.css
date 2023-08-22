@@ -326,7 +326,7 @@ a {
   text-align: left;
   margin: 0;
   padding: 0;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .form-group label {
@@ -338,6 +338,7 @@ a {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-group textarea {
@@ -346,11 +347,13 @@ a {
   padding: 12px 16px;
   height: 120px;
   outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-group input:hover {
   border-radius: 4px;
   border: 1px solid #2196f3;
+  border-color: var(--color-blue);
 }
 
 .form-group textarea::placeholder {
@@ -947,6 +950,8 @@ a {
   margin-left: 93px;
   width: 358px;
   height: 50px;
+
+  color: var(--coor-white);
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(33, 150, 243, 0);
@@ -965,6 +970,8 @@ a {
 }
 
 .btn-foter {
+  position: relative;
+
   width: 200px;
   height: 50px;
 
@@ -981,6 +988,12 @@ a {
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.svg-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* Portfolio */
