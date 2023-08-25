@@ -92,6 +92,12 @@
                 <div class="form-group">
                   <label for="user-name" class="user-name-modal">Ім'я</label>
                   <input type="text" id="user-name" name="user-name" />
+                  <span class="icon-person"
+                    ><svg widht="18" height="18">
+                      <use
+                        href="./images/sprite.svg#icon-person-black"
+                      ></use></svg
+                  ></span>
                 </div>
 
                 <div class="form-group">
@@ -122,14 +128,16 @@
                 </div>
 
                 <div class="form-group-bottom">
-                  <input
-                    type="checkbox"
-                    id="сonditions"
-                    name="сonditions"
-                    class="checkbox-modal"
-                  />
                   <label for="сonditions" class="сonditions">
+                    <input
+                      type="checkbox"
+                      id="сonditions"
+                      name="сonditions"
+                      class="checkbox-modal"
+                    />
+
                     Погоджуюся з розсилкою та приймаю
+                    <span class="checkbox-icon"></span>
                     <a href="" class="сonditions-link">Умови договору</a>
                   </label>
                 </div>
@@ -528,8 +536,9 @@
           </ul>
         </div>
         <div class="form-foter">
-          <form>
+          <form class="form-foter">
             <h3 class="text-foter-item">Підпишіться на розсилку</h3>
+
             <div class="form-group-foter">
               <label for="email" class="email-foter"></label>
               <input
@@ -538,12 +547,13 @@
                 name="email"
                 placeholder="E-mail"
               />
+              <button type="submit" class="btn-foter">
+                Підписатися
+                <svg class="svg-btn" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg>
+              </button>
             </div>
-
-            <button type="submit" class="btn-foter">Підписатися</button>
-            <svg class="svg-btn" width="24" height="24">
-              <use href="./images/sprite.svg#icon-icon-send"></use>
-            </svg>
           </form>
         </div>
       </div>
