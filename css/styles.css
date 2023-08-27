@@ -322,6 +322,10 @@ a {
   fill: var(--color-blue);
 }
 
+.svg-modal-btn {
+  margin: 6px;
+}
+
 /* modal form */
 
 .contacts-form {
@@ -1011,6 +1015,7 @@ a {
 }
 
 .form-group-foter {
+  margin-top: 20px;
   display: flex;
   align-items: baseline;
 }
@@ -1018,7 +1023,6 @@ a {
 .form-group-foter input {
   display: flex;
 
-  margin-top: 20px;
   padding: 0;
   padding-left: 16px;
 
