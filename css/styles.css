@@ -599,6 +599,7 @@ a {
 }
 
 .photo .li-item {
+  position: relative;
   margin: 0;
   padding: 0;
   margin-right: 30px;
@@ -619,10 +620,6 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
-}
-
-.app-div {
-  position: relative;
 }
 
 .text-app {
