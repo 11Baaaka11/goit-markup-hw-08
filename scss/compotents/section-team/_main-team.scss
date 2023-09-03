@@ -1,0 +1,73 @@
+.commands-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.li-comands {
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  background-color: var(--coor-white);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.li-comands:last-child {
+  margin-right: 0;
+}
+
+.commands-item .img {
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.commands-item .name {
+  color: var(--color-white-dark);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  margin: 0;
+}
+
+.commands-item .profession {
+  color: var(--color-gray-dark);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.name-profession {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img-Igor {
+  background: url(<path-to-image>),
+    lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
+}
+
+.img-Olga {
+  background: url(<path-to-image>),
+    lightgray -40.687px -0.224px / 175.271% 121.356% no-repeat;
+}
+
+.img-Mykola {
+  background: url(<path-to-image>),
+    lightgray -227.68px -8.844px / 193.508% 134.131% no-repeat;
+}
+
+.img-Myhaylo {
+  background: url(<path-to-image>),
+    lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
+}

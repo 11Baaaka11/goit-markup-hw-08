@@ -1,0 +1,56 @@
+@import "./utils/vars";
+
+// base style
+@import "./base/common";
+@import "./base/reset";
+@import "./base/container";
+
+// header
+
+@import "./compotents/header/header-main";
+@import "./compotents/header/header__logo";
+@import "./compotents/header/header-link";
+@import "./compotents/header/header-contacts";
+
+// hero
+
+@import "./compotents/hero/section-item";
+@import "./compotents/hero/section-btn";
+
+// backdrop
+@import "./compotents/hero/backdrop";
+
+// section feature
+
+@import "./compotents/section-feature/main-section-feature";
+
+// section occupation
+
+@import "./compotents/section-occupation/occupation-main";
+
+// section commands
+
+@import "./compotents/section-team/main-team";
+
+// section clients-list
+
+@import "./compotents/section-clients/main-clients";
+
+// foter
+
+@import "./compotents/foter/main-foter";
+@import "./compotents/foter/form-foter";
+
+// portflio html
+
+// main section
+
+@import "./compotents/portflio/main-section/main-section";
+
+// filter
+
+@import "./compotents/portflio/main-section/filter";
+
+// portfolio
+
+@import "./compotents/portflio/main-section/portfolio";

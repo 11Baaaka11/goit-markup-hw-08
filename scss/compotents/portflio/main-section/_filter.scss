@@ -1,0 +1,57 @@
+.filter .button-item {
+  color: var(--color-dark);
+  background: var(--bagroung-color-white);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6; /* 162.5% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 6px 22px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter .button-item:hover,
+.filter .button-item:focus {
+  background: var(--color-blue);
+}
+
+.filter .button-item:hover,
+.filter .button-item:focus {
+  color: var(--coor-white);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.filter .li-item {
+  margin-right: 8px;
+}
+
+.filter .button-item:hover,
+.filter .button-item:focus {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.filter .li-item:last-child {
+  margin-right: 0;
+}
+
+.filter .text {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6; /* 162.5% */
+  letter-spacing: 0.48px;
+}

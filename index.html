@@ -14,43 +14,46 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container main-contacts">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo-header"
+    <header classhe="header">
+      <div class="container header__main-contacts">
+        <nav class="header__main-nav">
+          <a href="./index.html" class="header__logo"
             >Web<span class="logo-studio">Studio</span></a
           >
 
-          <ul class="site-nav">
-            <li class="item">
-              <a href="" class="link current link-studio">Студія</a>
+          <ul class="header__site-nav">
+            <li class="site-nav-item">
+              <a href="" class="site-nav-link current link-studio">Студія</a>
             </li>
 
-            <li class="item">
-              <a href="./portfolio.html" class="link link-portfolio"
+            <li class="site-nav-item">
+              <a href="./portfolio.html" class="site-nav-link link-portfolio"
                 >Портфоліо</a
               >
             </li>
-            <li class="item"><a href="" class="link">Контакти</a></li>
+            <li class="site-nav-item">
+              <a href="" class="site-nav-link">Контакти</a>
+            </li>
           </ul>
         </nav>
         <!-- Contacts -->
 
-        <ul class="contacts">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="mail-item">
-              <svg class="icon-envelope" width="16" height="12">
+        <ul class="header__contacts">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-mail">
+              <svg class="contacts-icon-envelope" width="16" height="12">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="telephone-number">
-              <svg class="icon-smartphone" width="10" height="16">
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-telephone-number">
+              <svg class="contacts-icon-smartphone" width="10" height="16">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
               +380961111111
@@ -496,52 +499,52 @@
           <a href="./index.html" class="logo-header-index"
             ><span class="web">Web</span><span class="studio">Studio</span></a
           >
-          <address class="address">
-            <p class="address-item">м. Київ, пр-т Лесі Українки, 26</p>
-            <a href="mailto:info@devstudio.com" class="mail"
+          <address class="foter__address">
+            <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
+            <a href="mailto:info@devstudio.com" class="address-mail"
               >info@devstudio.com</a
             >
-            <a href="tel:+380961111111" class="tel">+380961111111</a>
+            <a href="tel:+380961111111" class="address-tel">+380961111111</a>
           </address>
         </div>
-        <div class="div-social-networks">
-          <h3 class="social-networks">приєднуйтесь</h3>
-          <ul class="sociale-list-foter">
-            <li class="social-list-item-foter">
-              <a href="" class="social-list-link-foter"
-                ><svg class="svg-foter" width="20" height="20">
+        <div class="div__social-networks">
+          <h3 class="social__networks">приєднуйтесь</h3>
+          <ul class="sociale__list-foter">
+            <li class="social__list-item-foter">
+              <a href="" class="social__list-link-foter"
+                ><svg class="svg__foter" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li class="social-list-item-foter">
-              <a href="" class="social-list-link-foter"
-                ><svg class="svg-foter" width="20" height="20">
+            <li class="social__list-item-foter">
+              <a href="" class="social__list-link-foter"
+                ><svg class="svg__foter" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="social-list-item-foter">
-              <a href="" class="social-list-link-foter"
-                ><svg class="svg-foter" width="20" height="20">
+            <li class="social__list-item-foter">
+              <a href="" class="social__list-link-foter"
+                ><svg class="svg__foter" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="social-list-item-foter">
-              <a href="" class="social-list-link-foter"
-                ><svg class="svg-foter" width="20" height="20">
+            <li class="social__list-item-foter">
+              <a href="" class="social__list-link-foter"
+                ><svg class="svg__foter" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
 
-        <form class="form-foter">
-          <h3 class="text-foter-item">Підпишіться на розсилку</h3>
+        <form class="form__foter">
+          <h3 class="form__foter-text">Підпишіться на розсилку</h3>
 
-          <div class="form-group-foter">
+          <div class="form__group-foter">
             <input type="email" id="mail" name="mail" placeholder="E-mail" />
-            <button type="submit" class="btn-foter">
+            <button type="submit" class="btn__foter">
               Підписатися
-              <svg class="svg-btn" width="24" height="24">
+              <svg class="svg__btn" width="24" height="24">
                 <use href="./images/sprite.svg#icon-icon-send"></use>
               </svg>
             </button>
