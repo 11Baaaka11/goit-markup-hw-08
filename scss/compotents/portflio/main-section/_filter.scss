@@ -13,16 +13,22 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.filter .button-item:hover,
-.filter .button-item:focus {
-  background: var(--color-blue);
-}
+  &:hover,
+  &:focus {
+    background: var(--color-blue);
+  }
 
-.filter .button-item:hover,
-.filter .button-item:focus {
-  color: var(--coor-white);
+  &:hover,
+  &:focus {
+    color: var(--coor-white);
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .filter {
@@ -35,16 +41,10 @@
 
 .filter .li-item {
   margin-right: 8px;
-}
 
-.filter .button-item:hover,
-.filter .button-item:focus {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.filter .li-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .filter .text {

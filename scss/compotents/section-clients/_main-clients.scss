@@ -29,6 +29,16 @@
   display: flex;
   border: 1px solid var(--color-svg-gray);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .svg-item,
+  &:focus .svg-item {
+    fill: var(--color-blue);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--color-blue);
+  }
 }
 
 .svg-item {
@@ -36,23 +46,13 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-clients:hover .svg-item,
-.link-clients:focus .svg-item {
-  fill: var(--color-blue);
-}
-
 .clients-list-li {
   margin-right: 30px;
   border-radius: 4px;
 
   height: 92px;
-}
 
-.link-clients:hover,
-.link-clients:focus {
-  border-color: var(--color-blue);
-}
-
-.clients-list-li:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }

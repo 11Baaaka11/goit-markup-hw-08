@@ -12,10 +12,10 @@
 .li-feature {
   margin-right: 30px;
   width: 270px;
-}
 
-.feature .li-feature:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .div-svg {

@@ -1,6 +1,6 @@
 .header__logo {
   color: var(--color-blue);
-  font-family: Raleway;
+  font-family: $primary-fonts;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -12,7 +12,7 @@
 
 .logo-studio {
   color: var(--color-dark);
-  font-family: Raleway;
+  font-family: $primary-fonts;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;

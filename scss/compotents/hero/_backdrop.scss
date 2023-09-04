@@ -53,11 +53,11 @@
   cursor: pointer;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-  fill: var(--color-blue);
+  &:hover,
+  &:focus {
+    fill: var(--color-blue);
+  }
 }
 
 .svg-modal-btn {
@@ -95,6 +95,18 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-radius: 4px;
+    border: 1px solid #2196f3;
+    border-color: var(--color-blue);
+  }
+
+  &:hover + .icon-modal,
+  &:focus + .icon-modal {
+    fill: var(--color-blue);
+  }
 }
 
 .form-group textarea {
@@ -104,13 +116,12 @@
   height: 120px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-group input:hover,
-.form-group input:focus {
-  border-radius: 4px;
-  border: 1px solid #2196f3;
-  border-color: var(--color-blue);
+  &:hover,
+  &:focus {
+    border-radius: 4px;
+    border: 1px solid #2196f3;
+  }
 }
 
 .form-group textarea::placeholder {
@@ -147,11 +158,6 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-group input:hover + .icon-modal,
-.form-group input:focus + .icon-modal {
-  fill: var(--color-blue);
-}
-
 .telephone-number-modal {
   color: var(--color-gray-dark);
   font-size: 12px;
@@ -182,6 +188,19 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  &:focus + .checkbox-icon {
+    border-color: var(--color-blue);
+  }
+
+  &:checked + .checkbox-icon {
+    border-color: var(--color-blue);
+    background-color: var(--color-blue);
+    background-image: url(../images/icon-check.svg);
+
+    background-size: contain;
+    background-origin: border-box;
+  }
 }
 
 .checkbox-icon {
@@ -199,19 +218,6 @@
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.checkbox-modal:focus + .checkbox-icon {
-  border-color: var(--color-blue);
-}
-
-.checkbox-modal:checked + .checkbox-icon {
-  border-color: var(--color-blue);
-  background-color: var(--color-blue);
-  background-image: url(../images/icon-check.svg);
-
-  background-size: contain;
-  background-origin: border-box;
 }
 
 .сonditions {
@@ -235,12 +241,6 @@
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
-}
-
-.form-group textarea:hover,
-.form-group textarea:focus {
-  border-radius: 4px;
-  border: 1px solid #2196f3;
 }
 
 .btn-form {
