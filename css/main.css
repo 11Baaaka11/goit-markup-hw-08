@@ -81,11 +81,6 @@ a {
 }
 
 /* site-nav */
-@media screen and (min-width: 767px) {
-  .menu-button {
-    display: none;
-  }
-}
 @media screen and (max-width: 767px) {
   .menu-button {
     margin: 0;
@@ -93,7 +88,7 @@ a {
     border: none;
     background: none;
   }
-  і .menu-button .icon-menu {
+  .menu-button .icon-menu {
     display: none;
   }
   .menu-button.is-open .icon-menu {
@@ -116,6 +111,11 @@ a {
   }
   .menu-container.is-open {
     display: block;
+  }
+}
+@media screen and (min-width: 767px) {
+  .menu-button {
+    display: none;
   }
 }
 .header__site-nav .site-nav-link.current {

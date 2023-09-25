@@ -1,11 +1,5 @@
 /* site-nav */
 
-@media screen and (min-width: 767px) {
-  .menu-button {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .menu-button {
     margin: 0;
@@ -14,7 +8,7 @@
     border: none;
     background: none;
   }
-  і .menu-button .icon-menu {
+  .menu-button .icon-menu {
     display: none;
   }
 
@@ -47,6 +41,12 @@
     &.is-open {
       display: block;
     }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .menu-button {
+    display: none;
   }
 }
 
