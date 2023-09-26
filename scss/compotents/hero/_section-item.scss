@@ -15,6 +15,19 @@
     url(../images/Img-hero.svg);
 }
 
+@media screen and (max-width: 1199px) {
+  .section-item {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/img-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 .section-item .text {
   width: 696px;
   color: var(--coor-white);
@@ -28,4 +41,13 @@
   margin: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .section-item .text {
+    width: 360px;
+    font-size: 26px;
+    line-height: 1.6; /* 161.538% */
+    letter-spacing: 1.56px;
+  }
 }

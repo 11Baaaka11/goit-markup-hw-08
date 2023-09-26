@@ -1,6 +1,10 @@
 .foter-container {
   display: flex;
   align-items: baseline;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
 }
 
 .logo-header-index {
@@ -15,6 +19,11 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    letter-spacing: 0.72px;
+  }
 }
 
 .footer .studio {
@@ -25,6 +34,11 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    letter-spacing: 0.72px;
+  }
 }
 
 .footer {

@@ -1,7 +1,41 @@
+.section-comands {
+  background-color: var(--bagroung-color-white);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-comands .commads {
+  color: var(--color-white-dark);
+  background: var(--bagroung-color-white);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-comands .commads {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+  }
+}
+
 .commands-item {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .commands-item {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
 }
 
 .li-comands {
@@ -70,4 +104,11 @@
 .img-Myhaylo {
   background: url(<path-to-image>),
     lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .commands-item .img {
+    width: 450px;
+    height: 460px;
+  }
 }
