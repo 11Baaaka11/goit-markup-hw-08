@@ -8,6 +8,11 @@
   letter-spacing: 0.78px;
   display: flex;
   margin-right: 94px;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    letter-spacing: 0.72px;
+  }
 }
 
 .logo-studio {
@@ -19,4 +24,9 @@
   line-height: normal;
   letter-spacing: 0.78px;
   display: flex;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    letter-spacing: 0.72px;
+  }
 }
