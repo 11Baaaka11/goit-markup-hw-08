@@ -14,11 +14,10 @@
 
   @media screen and (max-width: 1199px) {
     display: block;
+    margin-left: 96px;
   }
-}
 
-@media screen and (max-width: 767px) {
-  .header__contacts {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
@@ -36,6 +35,10 @@
   &:last-child {
     margin-right: 0;
   }
+
+  @media screen and (max-width: 1199px) {
+    margin-right: 0;
+  }
 }
 
 .contacts-icon-envelope {
@@ -49,6 +52,10 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (max-width: 1199px) {
+    margin-right: 8px;
+  }
 }
 
 .contacts-icon-smartphone {
@@ -61,6 +68,11 @@
 
   @media screen and (max-width: 767px) {
     display: none;
+    margin-right: 8px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    margin-right: 8px;
   }
 }
 
@@ -91,6 +103,9 @@
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+
+    font-size: 12px;
+    letter-spacing: 0.24px;
   }
 }
 
@@ -143,6 +158,9 @@
   @media screen and (max-width: 1199px) {
     margin: 0;
     padding: 0;
+
+    font-size: 12px;
+    letter-spacing: 0.24px;
   }
 }
 

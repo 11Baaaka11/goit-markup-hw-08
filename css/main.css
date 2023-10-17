@@ -261,14 +261,15 @@ a {
 @media screen and (max-width: 1199px) {
   .header__contacts {
     display: block;
+    margin-left: 96px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .header__contacts {
     display: none;
   }
 }
+
 .header__contacts-mobile {
   margin: 0;
   margin-top: 302px;
@@ -280,6 +281,11 @@ a {
 }
 .header__contacts .contacts-item:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 1199px) {
+  .header__contacts .contacts-item {
+    margin-right: 0;
+  }
 }
 
 .contacts-icon-envelope {
@@ -296,6 +302,11 @@ a {
     display: none;
   }
 }
+@media screen and (max-width: 1199px) {
+  .contacts-icon-envelope {
+    margin-right: 8px;
+  }
+}
 
 .contacts-icon-smartphone {
   vertical-align: middle;
@@ -309,6 +320,12 @@ a {
 @media screen and (max-width: 767px) {
   .contacts-icon-smartphone {
     display: none;
+    margin-right: 8px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .contacts-icon-smartphone {
+    margin-right: 8px;
   }
 }
 
@@ -337,6 +354,8 @@ a {
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+    font-size: 12px;
+    letter-spacing: 0.24px;
   }
 }
 
@@ -384,6 +403,8 @@ a {
   .contacts-telephone-number {
     margin: 0;
     padding: 0;
+    font-size: 12px;
+    letter-spacing: 0.24px;
   }
 }
 
@@ -828,7 +849,15 @@ a {
 
 @media screen and (max-width: 767px) {
   .feature {
-    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .feature {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 .li-feature {
@@ -842,6 +871,15 @@ a {
 @media screen and (max-width: 767px) {
   .li-feature {
     width: 450px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .li-feature {
+    width: 354px;
+  }
+  .li-feature:nth-last-child(odd) {
+    margin-right: 0;
   }
 }
 .div-svg {
@@ -864,6 +902,11 @@ a {
 @media screen and (max-width: 767px) {
   .div-svg {
     width: 450px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .div-svg {
+    width: 354px;
   }
 }
 .feature .text {
@@ -1002,6 +1045,12 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 1199px) {
+  .commands-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .commands-item {
@@ -1020,6 +1069,11 @@ a {
 }
 .li-comands:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 1199px) {
+  .li-comands:nth-last-child(odd) {
+    margin-right: 0;
+  }
 }
 
 .commands-item .img {
@@ -1080,6 +1134,12 @@ a {
     height: 460px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .commands-item .img {
+    width: 354px;
+    height: 374px;
+  }
+}
 .section-comands {
   background-color: var(--bagroung-color-white);
   padding-top: 94px;
@@ -1097,6 +1157,12 @@ a {
   letter-spacing: 1.08px;
   margin: 0;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 1199px) {
+  .section-comands .commads {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+  }
 }
 
 .sociale-list {
@@ -1165,7 +1231,7 @@ a {
   letter-spacing: 1.08px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-clients .text {
     font-size: 28px;
     letter-spacing: 0.84px;
@@ -1186,6 +1252,12 @@ a {
   .clients-list {
     display: block;
     padding-left: 40px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .clients-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -1210,6 +1282,11 @@ a {
 }
 .link-clients:hover, .link-clients:focus {
   border-color: var(--color-blue);
+}
+@media screen and (max-width: 1199px) {
+  .link-clients {
+    width: 226px;
+  }
 }
 
 .svg-item {

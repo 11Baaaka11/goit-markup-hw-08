@@ -28,6 +28,10 @@
   margin: 0;
   padding: 0;
   display: flex;
+
+  @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -48,6 +52,11 @@
 
   &:last-child {
     margin-right: 0;
+  }
+  @media screen and (max-width: 1199px) {
+    &:nth-last-child(odd) {
+      margin-right: 0;
+    }
   }
 }
 
@@ -113,6 +122,13 @@
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .commands-item .img {
+    width: 354px;
+    height: 374px;
+  }
+}
+
 .section-comands {
   background-color: var(--bagroung-color-white);
   padding-top: 94px;
@@ -130,6 +146,11 @@
   letter-spacing: 1.08px;
   margin: 0;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+  }
 }
 
 .sociale-list {

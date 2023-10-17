@@ -13,7 +13,7 @@
   letter-spacing: 1.08px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-clients .text {
     font-size: 28px;
     letter-spacing: 0.84px;
@@ -30,6 +30,10 @@
   @media screen and (max-width: 767px) {
     display: block;
     padding-left: 40px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
   }
 }
 
@@ -50,6 +54,10 @@
   &:hover,
   &:focus {
     border-color: var(--color-blue);
+  }
+
+  @media screen and (max-width: 1199px) {
+    width: 226px;
   }
 }
 

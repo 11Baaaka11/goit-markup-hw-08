@@ -11,19 +11,16 @@
 
 @media screen and (max-width: 767px) {
   .feature {
-    display: block;
+    justify-content: center;
   }
 }
 
-// @media screen and (max-width: 767px) {
-//   display: inline-block;
+@media screen and (max-width: 1199px) {
+  .feature {
+    flex-wrap: wrap;
+  }
+}
 
-//   margin-bottom: 30px;
-
-//   &:nth-last-child(-n + 3) {
-//     margin-bottom: 0;
-//   }
-// }
 .li-feature {
   margin-right: 30px;
   width: 270px;
@@ -36,6 +33,17 @@
 @media screen and (max-width: 767px) {
   .li-feature {
     width: 450px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .li-feature {
+    width: 354px;
+
+    &:nth-last-child(odd) {
+      margin-right: 0;
+    }
   }
 }
 
@@ -53,6 +61,12 @@
 @media screen and (max-width: 767px) {
   .div-svg {
     width: 450px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .div-svg {
+    width: 354px;
   }
 }
 
