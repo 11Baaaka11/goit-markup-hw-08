@@ -6,6 +6,15 @@
     display: block;
     text-align: center;
   }
+
+  @media screen and (max-width: 1199px) {
+    display: block;
+  }
+}
+
+.div-foter {
+  @media screen and (max-width: 1199px) {
+  }
 }
 
 .logo-header-index {

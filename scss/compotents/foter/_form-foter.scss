@@ -10,6 +10,10 @@
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .form__group-foter {
@@ -40,8 +44,10 @@
   outline: none;
 
   @media screen and (max-width: 1199px) {
-    width: 100%;
+    width: 450px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

@@ -1333,6 +1333,11 @@ a {
     text-align: center;
   }
 }
+@media screen and (max-width: 1199px) {
+  .foter-container {
+    display: block;
+  }
+}
 
 .logo-header-index {
   display: inline-block;
@@ -1524,6 +1529,11 @@ a {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 1199px) {
+  .form__foter-text {
+    text-align: center;
+  }
+}
 
 .form__group-foter {
   margin-top: 20px;
@@ -1559,8 +1569,10 @@ a {
 }
 @media screen and (max-width: 1199px) {
   .form__group-foter input {
-    width: 100%;
+    width: 450px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
