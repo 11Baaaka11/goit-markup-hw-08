@@ -28,8 +28,7 @@
   justify-content: center;
 
   @media screen and (max-width: 767px) {
-    display: block;
-    padding-left: 40px;
+    gap: 30px 30px;
   }
 
   @media screen and (max-width: 1199px) {
@@ -79,6 +78,9 @@
 
   @media screen and (max-width: 767px) {
     display: inline-block;
+
+    width: 210px;
+    height: 92px;
 
     margin-bottom: 30px;
 

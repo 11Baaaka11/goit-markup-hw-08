@@ -13,7 +13,19 @@
 }
 
 .div-foter {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-bottom: 60px;
+  }
+}
+
+.div-foter-item {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
   @media screen and (max-width: 1199px) {
+    text-align: center;
   }
 }
 
@@ -119,6 +131,11 @@
     margin: 0;
     margin-top: 60px;
     margin-bottom: 60px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1199px) {
+    margin-left: auto;
     text-align: center;
   }
 }
