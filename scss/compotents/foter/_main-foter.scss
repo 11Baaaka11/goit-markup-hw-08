@@ -1,6 +1,5 @@
 .foter-container {
   display: flex;
-  align-items: baseline;
 
   @media screen and (max-width: 767px) {
     display: block;
@@ -137,6 +136,7 @@
   @media screen and (max-width: 1199px) {
     margin-left: auto;
     text-align: center;
+    padding-top: 5px;
   }
 }
 

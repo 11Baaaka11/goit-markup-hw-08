@@ -1333,9 +1333,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 @media screen and (max-width: 767px) {
   .foter-container {
@@ -1481,6 +1478,7 @@ a {
   .div__social-networks {
     margin-left: auto;
     text-align: center;
+    padding-top: 5px;
   }
 }
 
@@ -1553,6 +1551,10 @@ a {
 }
 
 .form__foter {
+  margin-left: auto;
+}
+
+.form-foter-div {
   margin-left: auto;
 }
 
