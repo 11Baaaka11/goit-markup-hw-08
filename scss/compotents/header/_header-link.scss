@@ -10,7 +10,7 @@
 
   display: none;
 
-  height: 796px;
+  height: 100%;
 
   background-color: var(--coor-white);
 
@@ -103,7 +103,7 @@
   }
 }
 
-.header__site-nav .site-nav-link {
+.header__site-nav .site-nav-link.current {
   position: relative;
   color: var(--color-white-dark);
   font-size: 14px;
@@ -121,6 +121,12 @@
     color: var(--color-blue);
   }
 }
+
+// @media screen and (max-width: 767px) {
+//   .header__site-nav-mobile .site-nav-link.current {
+//     color: var(--color-blue);
+//   }
+// }
 
 .header__site-nav-mobile .site-nav-link {
   color: var(--color-white-dark);
