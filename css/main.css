@@ -138,12 +138,6 @@ a {
     display: none;
   }
 }
-.header__site-nav .site-nav-link.current {
-  color: var(--color-blue);
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .header__site-nav .current::after {
   content: "";
   position: absolute;
@@ -181,6 +175,23 @@ a {
   margin-right: 0;
 }
 
+.header__site-nav .site-nav-link {
+  color: var(--color-white-dark);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__site-nav .site-nav-link:hover, .header__site-nav .site-nav-link:focus {
+  color: var(--color-blue);
+}
+
 .header__site-nav .site-nav-link.current {
   position: relative;
   color: var(--color-white-dark);
@@ -197,6 +208,12 @@ a {
 }
 .header__site-nav .site-nav-link.current:hover, .header__site-nav .site-nav-link.current:focus {
   color: var(--color-blue);
+}
+
+.header__site-nav .site-nav-link.current {
+  color: var(--color-blue);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__site-nav-mobile .site-nav-link {
@@ -487,17 +504,13 @@ a {
   .section-item {
     padding-top: 118px;
     padding-bottom: 118px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .section-item {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/img-hero-mobile.svg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-hero-mobile.svg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Header-img.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header-img.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
+
 .section-item .text {
   width: 696px;
   color: var(--coor-white);
