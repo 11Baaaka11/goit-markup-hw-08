@@ -126,6 +126,13 @@
 .div__social-networks {
   margin-left: 70px;
 
+  @media screen and (max-width: 1199px) {
+    margin-left: 165px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: auto;
+  }
+
   @media screen and (max-width: 767px) {
     padding: 0;
     margin: 0;
@@ -134,11 +141,12 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 1199px) {
-    margin-left: 165px;
+  @media screen and (max-width: 479px) {
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-align: center;
-    padding-top: 5px;
-    margin-right: auto;
   }
 }
 

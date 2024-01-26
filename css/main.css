@@ -32,6 +32,11 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -534,6 +539,14 @@ a {
     letter-spacing: 1.56px;
   }
 }
+@media screen and (max-width: 479px) {
+  .section-item .text {
+    width: 310px;
+    font-size: 22px;
+    line-height: 1.6; /* 161.538% */
+    letter-spacing: 1.56px;
+  }
+}
 /* button */
 .section-item .button {
   color: var(--coor-white);
@@ -913,6 +926,11 @@ a {
     margin: 0;
   }
 }
+@media screen and (max-width: 479px) {
+  .li-feature {
+    width: 300px;
+  }
+}
 
 .div-svg {
   margin-bottom: 30px;
@@ -938,6 +956,11 @@ a {
 @media screen and (max-width: 767px) {
   .div-svg {
     width: 450px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .div-svg {
+    width: 300px;
   }
 }
 
@@ -1131,6 +1154,11 @@ a {
     margin: 0;
   }
 }
+@media screen and (max-width: 479px) {
+  .li-comands {
+    width: 300px;
+  }
+}
 
 .commands-item .img {
   width: 270px;
@@ -1149,6 +1177,12 @@ a {
   .commands-item .img {
     width: 450px;
     height: 460px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .commands-item .img {
+    width: 300px;
+    height: 315px;
   }
 }
 
@@ -1519,6 +1553,14 @@ a {
 .div__social-networks {
   margin-left: 70px;
 }
+@media screen and (max-width: 1199px) {
+  .div__social-networks {
+    margin-left: 165px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: auto;
+  }
+}
 @media screen and (max-width: 767px) {
   .div__social-networks {
     padding: 0;
@@ -1528,12 +1570,13 @@ a {
     text-align: center;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 479px) {
   .div__social-networks {
-    margin-left: 165px;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-align: center;
-    padding-top: 5px;
-    margin-right: auto;
   }
 }
 
@@ -1663,6 +1706,14 @@ a {
 @media screen and (max-width: 1199px) {
   .form__group-foter input {
     width: 450px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 479px) {
+  .form__group-foter input {
+    width: 300px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;

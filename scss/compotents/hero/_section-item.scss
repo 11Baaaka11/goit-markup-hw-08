@@ -66,3 +66,12 @@
     letter-spacing: 1.56px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .section-item .text {
+    width: 310px;
+    font-size: 22px;
+    line-height: 1.6; /* 161.538% */
+    letter-spacing: 1.56px;
+  }
+}

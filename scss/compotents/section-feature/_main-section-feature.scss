@@ -50,6 +50,10 @@
       margin: 0;
     }
   }
+
+  @media screen and (max-width: 479px) {
+    width: 300px;
+  }
 }
 
 .div-svg {
@@ -68,6 +72,10 @@
 
   @media screen and (max-width: 767px) {
     width: 450px;
+  }
+
+  @media screen and (max-width: 479px) {
+    width: 300px;
   }
 }
 
