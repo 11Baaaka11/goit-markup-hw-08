@@ -134,6 +134,10 @@
   &:focus {
     color: var(--color-blue);
   }
+
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+  }
 }
 
 .contacts-telephone-number {
@@ -169,7 +173,7 @@
 
 .contacts-telephone-number-mobile {
   color: var(--color-gray-dark);
-  font-size: 34px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

@@ -1,4 +1,5 @@
 .section-item {
+  position: relative;
   flex-shrink: 0;
   margin-left: auto;
   margin-right: auto;
@@ -8,26 +9,34 @@
   max-width: 1600px;
   background-color: var(--color-dark-blue);
   background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/Img-hero.svg);
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+  // url(../images/Img-hero.svg)
 
   @media screen and (max-width: 1199px) {
     padding-top: 118px;
     padding-bottom: 118px;
 
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/Header-img.svg);
+    // background-image: linear-gradient(
+    //     to right,
+    //     rgba(47, 48, 58, 0.4),
+    //     rgba(47, 48, 58, 0.4)
+    //   ),
+    //   url(../images/Header-img.svg);
 
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+.section-item .img-hero {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 // @media screen and (max-width: 1199px) {
@@ -69,7 +78,7 @@
 
 @media screen and (max-width: 479px) {
   .section-item .text {
-    width: 310px;
+    width: 280px;
     font-size: 22px;
     line-height: 1.6; /* 161.538% */
     letter-spacing: 1.56px;

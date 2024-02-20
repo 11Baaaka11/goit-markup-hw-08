@@ -4,6 +4,11 @@
   padding: 0;
   margin-left: 40px;
   margin-top: 64px;
+
+  @media screen and (max-width: 479px) {
+    flex-wrap: wrap;
+    width: 75%;
+  }
 }
 
 .sociale-list-mobile .sociale-list-item-mobile {
