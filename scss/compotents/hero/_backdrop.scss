@@ -32,7 +32,21 @@
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (max-width: 1199px){
+    width: 450px;
+    height: 609px;
+  }
+
+  @media screen and (max-width: 479px) {
+    width: 320px;
+  }
+  
+
 }
+
+
+
 
 .is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.4);
@@ -70,6 +84,15 @@
   width: 448px;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: 1199px) {
+    width: 370px;
+  }
+
+  @media screen and (max-width: 479px) {
+    width: 240px;
+  }
+  
 }
 
 .form-group {
@@ -122,6 +145,8 @@
     border-radius: 4px;
     border: 1px solid #2196f3;
   }
+
+ 
 }
 
 .form-group textarea::placeholder {
@@ -141,6 +166,8 @@
   padding: 0;
 
   margin-bottom: 12px;
+
+
 }
 
 .user-name-modal {
@@ -228,6 +255,17 @@
   letter-spacing: 0.42px;
   text-align: center;
   margin: 0;
+
+  @media screen and (max-width: 1199px) {
+
+    font-size: 12px;
+    padding-left: 20px;
+  }
+
+  @media screen and (max-width: 479px) {
+   padding-left: 10px;
+  }
+  
 }
 
 .сonditions-link {
@@ -241,6 +279,8 @@
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
+
+ 
 }
 
 .btn-form {
