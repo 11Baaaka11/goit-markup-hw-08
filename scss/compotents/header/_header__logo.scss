@@ -1,6 +1,6 @@
 .header__logo {
   color: var(--color-blue);
-  font-family: Raleway sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -12,12 +12,13 @@
   @media screen and (max-width: 1199px) {
     font-size: 24px;
     letter-spacing: 0.72px;
+    margin-right: 84px;
   }
 }
 
 .logo-studio {
   color: var(--color-dark);
-  font-family: Raleway sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;

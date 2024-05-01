@@ -26,6 +26,11 @@
   margin: 0;
 
   margin-top: 302px;
+
+  @media screen and (max-width: 479px) {
+ 
+    margin-top: 144px;
+  }
 }
 
 .header__contacts .contacts-item {
