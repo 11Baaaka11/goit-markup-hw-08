@@ -1,12 +1,15 @@
 .section-comands {
   background-color: var(--bagroung-color-white);
-  padding-top: 94px;
-  padding-bottom: 94px;
 
-  @media screen and (max-width: 1199px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+    padding-top: 94px;
+    padding-bottom: 94px;
+  
+    @media screen and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+   
+
 }
 
 .section-comands .commads {
@@ -151,11 +154,7 @@
     lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
 }
 
-.section-comands {
-  background-color: var(--bagroung-color-white);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 .section-comands .commads {
   color: var(--color-white-dark);

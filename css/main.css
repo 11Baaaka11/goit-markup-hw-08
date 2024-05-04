@@ -1353,12 +1353,6 @@ a {
   background: url(<path-to-image>), lightgray -74.896px 0px/152.119% 105.326% no-repeat;
 }
 
-.section-comands {
-  background-color: var(--bagroung-color-white);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .section-comands .commads {
   color: var(--color-white-dark);
   background: var(--bagroung-color-white);
