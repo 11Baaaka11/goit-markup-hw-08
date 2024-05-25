@@ -72,6 +72,13 @@
   &:focus {
     fill: var(--color-blue);
   }
+
+  
+  @media screen and (max-width: 479px) {
+    top: 20px;
+  right: 8px;
+  }
+
 }
 
 .svg-modal-btn {

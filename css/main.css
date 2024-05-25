@@ -300,6 +300,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .header__contacts {
@@ -572,25 +574,25 @@ a {
     padding-bottom: 118px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-item {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img-hero-768px.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero-768px.jpg);
   }
 }
-@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 1199px) and (min-resolution: 192dpi) {
   .section-item {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img-hero-768px-2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero-768px-2x.jpg);
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .section-item {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img-hero-480px.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero-480px.jpg);
   }
 }
-@media screen and (max-width: 479px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 479px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .section-item {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img-hero-480px-2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero-480px-2x.jpg);
@@ -747,6 +749,12 @@ a {
 }
 .modal-btn:hover, .modal-btn:focus {
   fill: var(--color-blue);
+}
+@media screen and (max-width: 479px) {
+  .modal-btn {
+    top: 20px;
+    right: 8px;
+  }
 }
 
 .svg-modal-btn {
@@ -1556,7 +1564,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 60px;
   }
 }
 
@@ -1611,6 +1618,7 @@ a {
 .footer {
   background: var(--color-dark-blue);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .foter__address {
