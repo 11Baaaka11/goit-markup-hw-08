@@ -301,7 +301,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 7px;
-  padding-bottom: 7px;
 }
 
 .header__contacts {
@@ -1576,6 +1575,7 @@ a {
   .div-foter-item {
     text-align: center;
     margin-left: auto;
+    margin-bottom: 60px;
   }
 }
 
