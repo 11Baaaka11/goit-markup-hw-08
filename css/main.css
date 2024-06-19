@@ -511,6 +511,7 @@ a {
 }
 
 .sociale-list-mobile .sociale-list-item-mobile {
+  position: relative;
   margin: 0;
   padding: 0;
   margin-right: 10px;
@@ -520,7 +521,6 @@ a {
 }
 
 .sociale-list-mobile .sociale-list-link-mobile {
-  position: relative;
   color: var(--color-blue);
   font-size: 18px;
   font-style: normal;
@@ -534,7 +534,7 @@ a {
   }
 }
 
-.sociale-list-mobile .sociale-list-link-mobile::after {
+.sociale-list-mobile .sociale-list-item-mobile::after {
   content: "";
   position: absolute;
   right: -5px;
@@ -544,7 +544,7 @@ a {
   background: rgba(33, 33, 33, 0.2);
 }
 @media screen and (max-width: 767px) {
-  .sociale-list-mobile .sociale-list-link-mobile::after:last-child() {
+  .sociale-list-mobile .sociale-list-item-mobile::after:last-child {
     content: none;
   }
 }
